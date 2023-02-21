@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "23854524"))
-API_HASH = getenv("API_HASH", "e765ba734e8c485b1b1f72dff94127de")
+API_ID = int(getenv("API_ID", "15599295"))
+API_HASH = getenv("API_HASH", "4ce42998f7df4a64934294dadca28ae0")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6152203566:AAEWiQZIsvs5iA8LtKblIaqdac_u_1VF4xk")
+BOT_TOKEN = getenv("BOT_TOKEN", "6032824512:AAH174M5N2LixIrMWtBQeiImoAV-Gmf3W_U")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001770300514"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Sᴡᴇᴇᴛ X ʙᴀʙʏ")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://its_star_boi:7234049299@cluster0.8twjh9e.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001756926434"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴛɴʀ ᴍᴜsɪᴄ ʙᴏᴛ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5988263194").split()))
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/its-star-boi/1")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/YKD_I")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ISHQ00_I")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STAR_X_NETWORK")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/tnrflvvsh")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -45,8 +45,8 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "eba02eda59b948f5a385d1ccc56ac5a8")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f862a4351be4fa78d0fbb4145dd2135")
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQCCpDm3oHakWFRyeAIe_lv-tPWyuHS4pRMKQlDQOSkH3tT9pwLE7TeyZc_DX_AjSeXfNgzcHqAW6Ik-XgYAf103YK0ykKeUwwJyubPm7F5GxqDpDtgH_OH7ziQNPbspWCV1GpuZg3w_J3hwm8ABnpWFGdsV_E7_hXqYghzoCHbICgYDyzQg9qLpfh28x1Z9E1cYU_gpJ511KMEkEUhzY3j4_xmvTK1Ldpj2Z-gL1XK7SZEqDkHy9brdtCuFjJC6LsdOUPk6L4PmYNta0U9YOdnaSWKFGXDdHR1bE3W-7BJq-qXmM3UzTzF5PwM7nsxYWozrUs3U5OnQT4LocdfSprn2AAAAAU3end8A")
+STRING1 = getenv("STRING_SESSION", "BQAXzNtm6lezz4kiDmSmpH8oVDnKtIld8FalbcjDpcA-m5LoFFvRsCAJCeT9183ZkeYSvq5IwjU2WXiRP9J3cZB3i1CpXjjjZVtOsoM0WKns1GwCnjWIs2NXhYzjkF6z0xqUcqnG_F26CBV43FmyVYv1dXd0KWuW0tO4XVK1ukVHQs8sPa5miVKV6zrLTxAX8LvxAnAWwFCaQQQpvkmJjpUW7ce2RTI8BJ6uzyeJXewT9WuVH45jOPbkHXpBJ1gdgAYpjmfMUIv2TrMnm_XMa8V4WXVsM0_891f4RZNKNMTEux_8eM1XTQBpjJd0hgQXzVNEPONCVKpFI81fsELxtMEKAAAAAU8Pz_0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/48e99c52cc588995fd42f.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/e1d7e05dd7aa54ef898e7.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/f8501194e7142db4e8c69.jpg",
+    "https://te.legra.ph/file/e1d7e05dd7aa54ef898e7.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
