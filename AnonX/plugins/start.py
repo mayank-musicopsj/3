@@ -10,11 +10,11 @@ import config
 from config import BANNED_USERS
 from config import OWNER_ID
 from strings import get_command, get_string
-from AnonX import Telegram, YouTube, app
-from AnonX.misc import SUDOERS, _boot_
-from AnonX.plugins.playlist import del_plist_msg
-from AnonX.plugins.sudoers import sudoers_list
-from AnonX.utils.database import (add_served_chat,
+from ShizukaX import Telegram, YouTube, app
+from ShizukaX.misc import SUDOERS, _boot_
+from ShizukaX.plugins.playlist import del_plist_msg
+from ShizukaX.plugins.sudoers import sudoers_list
+from ShizukaX.utils.database import (add_served_chat,
                                        add_served_user,
                                        get_served_chats,
                                        get_served_users,
@@ -22,9 +22,9 @@ from AnonX.utils.database import (add_served_chat,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from AnonX.utils.decorators.language import LanguageStart
-from AnonX.utils.formatters import get_readable_time
-from AnonX.utils.inline import (help_pannel, private_panel,
+from ShizukaX.utils.decorators.language import LanguageStart
+from ShizukaX.utils.formatters import get_readable_time
+from ShizukaX.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
@@ -46,7 +46,7 @@ async def start_comm(client, message: Message, _):
             await message.reply_sticker("CAACAgUAAxkBAAJE8GK4EsoLVZC2SW5W5Q-QAkaoN8f_AAL9BQACiy14VGoQxOCDfE1KKQQ")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
-                       caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
+                       caption=_["help_1"], reply_markup=keyboard
             )
         if name[0:4] == "song":
             return await message.reply_text(_["song_2"])
